@@ -1,0 +1,33 @@
+{
+    "name": "acrcloud2",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/server.js",
+        "webpack": "webpack --mode development --watch"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "body-parser": "^1.19.0",
+        "crypto": "^1.0.1",
+        "css-loader": "^3.5.3",
+        "express": "^4.17.1",
+        "jsdom": "^16.2.2",
+        "morgan": "^1.10.0",
+        "mysql": "^2.18.1",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.9.0",
+        "babel-loader": "^8.1.0",
+        "babel-preset-env": "^1.7.0",
+        "vue": "^2.6.11",
+        "vue-loader": "^15.9.1",
+        "vue-template-compiler": "^2.6.11",
+        "webpack": "^4.42.1",
+        "webpack-cli": "^3.3.11"
+    }
+}
